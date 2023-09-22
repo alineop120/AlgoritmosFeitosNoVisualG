@@ -1,13 +1,14 @@
-algoritmo "contador de características físicas"
-// Função :
+algoritmo "contador de caracterÃ­sticas fÃ­sicas"
+// FunÃ§Ã£o :
 // Autor :
 // Data : 20/09/2023
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
-      cont, cont_olho_verde, cont_olho_castanho, cont_olho_azul, cont_olho_preto, cont_pardo, cont_preto, cont_branco  : inteiro
-      olhos, pele                                           : caracter
+      cont, cont_olho_verde, cont_olho_castanho, cont_olho_azul, cont_olho_preto           : inteiro
+      cont_pardo, cont_preto, cont_branco                                                  : inteiro
+      olhos, pele                                                                          : caracter
 inicio
-// Seção de Comandos
+// SeÃ§Ã£o de Comandos
 
    cont_olho_verde <- 0
    cont_olho_castanho <- 0
@@ -45,11 +46,11 @@ inicio
       
    fimenquanto
    
-   escreval ("A quantidade de pessoas com os olhos azuis é ", cont_olho_azul)
-   escreval ("A quantidade de pessoas com os olhos pretos é ", cont_olho_preto)
-   escreval ("A quantidade de pessoas com os olhos castanhos é ", cont_olho_castanho)
-   escreval ("A quantidade de pessoas com os olhos verdes é ", cont_olho_verde)
-   escreval ("A quantidade de pessoas com a pele branca é ", cont_branco)
-   escreval ("A quantidade de pessoas com a pele preta é ", cont_preto)
-   escreval ("A quantidade de pessoas com a pele parda é ", cont_pardo)
+   escreval ("A quantidade de pessoas com os olhos azuis Ã© ", cont_olho_azul)
+   escreval ("A quantidade de pessoas com os olhos pretos Ã© ", cont_olho_preto)
+   escreval ("A quantidade de pessoas com os olhos castanhos Ã© ", cont_olho_castanho)
+   escreval ("A quantidade de pessoas com os olhos verdes Ã© ", cont_olho_verde)
+   escreval ("A quantidade de pessoas com a pele branca Ã© ", cont_branco)
+   escreval ("A quantidade de pessoas com a pele preta Ã© ", cont_preto)
+   escreval ("A quantidade de pessoas com a pele parda Ã© ", cont_pardo)
 fimalgoritmo
